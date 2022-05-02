@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: rgb(56, 117, 231);
+            color: white;
+            font: oblique 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaSctipt.</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        //window.document.write('Está escrito asim: ' + p1.innerText)
+        //p1.style.color = 'rgb(80, 100, 0)'
+        //corpo.style.background = 'black'
+        document.write(p1.innerHTML) //com o innerHTML, o negrito aparece quando escolhemos o segundo parágrafo
+        //var d = document.getElementById('msg')
+        var d = document.querySelector('div#msg') // esse recurso é mais recente
+        // em CSS, # refere-se à id e . à classe
+        d.style.backgroundColor = 'red'
+        d.innerText = 'Novo texto para essa div'
+    </script>
+</body>
+</html>

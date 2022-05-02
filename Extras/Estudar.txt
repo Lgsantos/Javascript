@@ -1,0 +1,17 @@
+Próximo passos em Javascript
+
+0. Fazer curso HTML e CSS - Curso em vídeo (em andamento)
+00. Fazer curso de Linux - Curso em vídeo
+1. functions
+    - arrow functions (Feito!)
+    - callback (Feito!)
+    - funções anônimas (Feito!)
+    - IIFE - Immediately Invoked Function Expression (ou  Self-Executing Anonymous Function ) (Feito!)
+    - fundamentos do Javascript funcional (Feito!)
+02. objetos
+    - fundamentos da POO (Feito!)
+03. modularização
+04. RegEx (expressões regulares)
+05. JSON (transmitir e salvar dados localmente)
+06. AJAX (rolagem automáticas e infinitas de telas)
+07. NodeJS (permite rodar JS nos servidores)
